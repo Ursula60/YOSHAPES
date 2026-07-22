@@ -11,7 +11,7 @@ Structure and skeleton of index.html.
 Dabiré Prisca (CSS)
 Design, styling, and responsive layout in style.css.
 
-Nanéma Doriane (JS Data)
+Namena Doriane (JS Data)
 Product catalog management and search functionality.
 
 Kaboré Raoul ( JS Filters & Cart)
