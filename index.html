@@ -3,18 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>YOSHAPES — Boutique</title>
-<link rel="stylesheet" href="CSS/style.css">
+<title>ShopEasy — Boutique</title>
+<link rel="stylesheet" href="shopEasyy.css">
 <meta name="description"
-content="Boutique en ligne YOSHAPES proposant vêtements et accessoires.">
+content="Boutique en ligne ShopEasy proposant vêtements et accessoires.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link
+href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header class="site-header">
-        <a href="index.html" class="logo">YO<span>SHAPES</span></a>
+        <a href="index.html" class="logo">Shop<span>Easy</span></a>
 
         <div class="header-inner">
             <nav class="main-nav" id="categoryNav"></nav>
@@ -50,7 +51,7 @@ content="Boutique en ligne YOSHAPES proposant vêtements et accessoires.">
             <input type="text" id="searchInput" placeholder="Chercher un produit… (ex : pull, sac, montre)">
         </div>
         <div class="sort-box">
-            <label for="sortSelect">Trier</label>
+            <label for="sortSelect" class="sortSelect">Trier</label>
             <select id="sortSelect">
                 <option value="default">Par défaut</option>
                 <option value="price-asc">Prix croissant</option>
@@ -69,12 +70,15 @@ content="Boutique en ligne YOSHAPES proposant vêtements et accessoires.">
 </main>
 
 <footer class="site-footer">
-        <p>&copy; 2026 YOSHAPES - Tous droits réservés.</p>
+    
+        <p>&copy; 2026 ShopEasy - Tous droits réservés.</p>
+
         <nav>
             <a href="#">Conditions générales</a>
             <a href="#">Confidentialité</a>
             <a href="#">Contact</a>
         </nav>
+    
 </footer>
 <div class="cart-overlay" id="cartOverlay"></div>
 
@@ -110,7 +114,7 @@ content="Boutique en ligne YOSHAPES proposant vêtements et accessoires.">
 
         <h3 id="modalTitle">Commande confirmée</h3>
 
-        <p id="modalText">Merci pour votre achat chez YOSHAPES. </p>
+        <p id="modalText">Merci pour votre achat chez ShopEasy. </p>
 
         <button class="btn-order" id="modalClose">
             Continuer mes achats
@@ -119,5 +123,6 @@ content="Boutique en ligne YOSHAPES proposant vêtements et accessoires.">
 </div>
 
 <script src="script.js"></script>
+
 </body>
 </html>
