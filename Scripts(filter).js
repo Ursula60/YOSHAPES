@@ -6,6 +6,7 @@ let currentSearch = "";
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
 
+// Création des catégories
 const categories = ["Tous", ...new Set(products.map(p => p.category))];
 
 categories.forEach(category => {
